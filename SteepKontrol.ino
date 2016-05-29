@@ -6,6 +6,7 @@
 #include "FaButton.h"
 #include "FaDegerSakla.h"
 #include "FaZamanlayici.h";
+#include "FaDecimalView.h";
 #include <Bounce2.h>
 
 
@@ -42,6 +43,7 @@ FaZamanlayici ZamanlayiciForm;
 FaZamanlayici ZamanlayiciButton;
 
 FaButton FaButton1;
+FaDecimalView Decimal1;
 
 Bounce debouncer = Bounce();
 
@@ -220,7 +222,7 @@ void FormGoruntule() {
     if (AyarHanesi > 3)
       AyarHanesi = 3;
 
-    if AktifSatir==0 
+     //AktifSatir==0 
 
   }
   else if (AyarModu == false) {
