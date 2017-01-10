@@ -5,6 +5,7 @@ class FaZamanlayici {
   public:
 
     bool MicrosaniyedeBir(unsigned long);
+    void Reset();
     //bool MilisaniyedeBir(unsigned long);
     //bool SaniyedeBir(unsigned long);
 

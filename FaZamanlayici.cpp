@@ -17,6 +17,10 @@ bool FaZamanlayici::MicrosaniyedeBir(unsigned long BeklemeSuresi)
   
 }
 
+void FaZamanlayici::Reset()
+{
+    SonOkunanMicrosaniye=micros();
+}
 
 //bool FaZamanlayici::DakikadaXDefaStepGonder(int PortNo, unsigned long DakikadakiTekrarSayisi)
 //{
