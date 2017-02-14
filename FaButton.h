@@ -14,6 +14,5 @@ class FaButton
 };
 
 //extern FaButtonClass FaButton;
-
 #endif
 
